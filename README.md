@@ -1,5 +1,14 @@
-# claim_provenance
-This is the code and data for paper “Who said it, and Why?” Provenance for Natural Language Claims.
+# Provenance for Natural Language Claims
+This is the code and the data for paper “Who said it, and Why?” Provenance for Natural Language Claims.
+
+The experimental evaluation of the paper is to study the effective of the source extraction techniques proposed in the paper.
+
+##Dataset:
+We use MPQA 2.04 (Choi et al., 2005) as the corpus to train and test our models. It can be download by http://mpqa.cs.pitt.edu/corpora/mpqa_corpus/mpqa_corpus_2_0/.
+
+Then you can run python process_mpqa.py to generate our training and test data for source extraction. We keep a copy of the output in the folder cross_validation.
+
+
 
 To reproduce the results in the paper, you can simply run:
 
