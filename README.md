@@ -9,7 +9,8 @@ We use MPQA 2.04 (Choi et al., 2005) as the corpus to train and test our models.
 Then you can run ``` python process_mpqa.py``` to generate our training and test data for source extraction. We keep a copy of the output in the folder cross_validation.
 
 ## Resources:
-In this project, our model is built based on  ```pytorch-pretrained-bert''', you can run ```pip install 
+In this project, our model is built based on  ```pytorch-pretrained-bert``` , you can run ```pip install pytorch-pretrained-bert == 0.6.1``` to install, or include our folder pytorch_pretrained_bert.
+
 
 ## Model:
 In this paper, we propose to treat *source extraction* as an information extraction problem, and tackle it via an texual entailment model.
